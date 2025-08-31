@@ -1,0 +1,176 @@
+Globals:
+  ApplicationName: unum-chainn-function
+  WorkflowType: step-functions
+  WorkflowDefinition: unum-step-functions.json
+  FaaSPlatform: aws
+  UnumIntermediaryDataStoreType: dynamodb
+  UnumIntermediaryDataStoreName: unum-inter-datastore-chain
+  Checkpoint: true
+  GC: true
+  Debug: false
+Functions:
+  Func1:
+    Properties:
+      CodeUri: function1/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+      Start: true
+  Func2:
+    Properties:
+      CodeUri: function2/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func3:
+    Properties:
+      CodeUri: function3/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+      Policies:
+        - AmazonSNSFullAccess
+        - AmazonSQSFullAccess
+  Func4:
+    Properties:
+      CodeUri: function4/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func5:
+    Properties:
+      CodeUri: function5/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func6:
+    Properties:
+      CodeUri: function6/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func7:
+    Properties:
+      CodeUri: function7/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func8:
+    Properties:
+      CodeUri: function8/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func9:
+    Properties:
+      CodeUri: function9/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func10:
+    Properties:
+      CodeUri: function10/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func11:
+    Properties:
+      CodeUri: function11/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func12:
+    Properties:
+      CodeUri: function12/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func13:
+    Properties:
+      CodeUri: function13/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func14:
+    Properties:
+      CodeUri: function14/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func15:
+    Properties:
+      CodeUri: function15/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func16:
+    Properties:
+      CodeUri: function16/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func17:
+    Properties:
+      CodeUri: function17/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func18:
+    Properties:
+      CodeUri: function18/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func19:
+    Properties:
+      CodeUri: function19/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func20:
+    Properties:
+      CodeUri: function20/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func21:
+    Properties:
+      CodeUri: function21/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func22:
+    Properties:
+      CodeUri: function22/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func23:
+    Properties:
+      CodeUri: function23/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func24:
+    Properties:
+      CodeUri: function24/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func25:
+    Properties:
+      CodeUri: function25/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func26:
+    Properties:
+      CodeUri: function26/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func27:
+    Properties:
+      CodeUri: function27/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func28:
+    Properties:
+      CodeUri: function28/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func29:
+    Properties:
+      CodeUri: function29/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func30:
+    Properties:
+      CodeUri: function30/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func31:
+    Properties:
+      CodeUri: function31/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+  Func32:
+    Properties:
+      CodeUri: function32/
+      Runtime: python3.9
+      Handler: main.lambda_handler
+

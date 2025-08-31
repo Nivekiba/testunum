@@ -1,0 +1,9 @@
+{
+    "Name": "Func3",
+    "Checkpoint": true,
+    "Debug": false,
+    "Next": {
+        "Name": "Func4",
+        "InputType": "Scalar"
+    }
+}

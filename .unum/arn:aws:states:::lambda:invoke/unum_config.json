@@ -1,0 +1,5 @@
+{
+    "Name": "arn:aws:states:::lambda:invoke",
+    "Checkpoint": true,
+    "Debug": false
+}

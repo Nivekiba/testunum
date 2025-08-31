@@ -1,0 +1,166 @@
+{
+  "Comment": "chain of simple functions",
+  "StartAt": "Func1",
+  "States": {
+    "Func1": {
+      "Type": "Task",
+      "Resource": "Func1",
+      "Next": "Func2"
+    },
+    "Func2": {
+      "Type": "Task",
+      "Resource": "Func2",
+      "Next": "Func3"
+    },
+    "Func3": {
+      "Type": "Task",
+      "Resource": "Func3",
+      "Next": "Func4"
+    },
+    "Func4": {
+      "Type": "Task",
+      "Resource": "Func4",
+      "Next": "Func5"
+    },
+    "Func5": {
+      "Type": "Task",
+      "Resource": "Func5",
+      "Next": "Func6"
+    },
+    "Func6": {
+      "Type": "Task",
+      "Resource": "Func6",
+      "Next": "Func7"
+    },
+    "Func7": {
+      "Type": "Task",
+      "Resource": "Func7",
+      "Next": "Func8"
+    },
+    "Func8": {
+      "Type": "Task",
+      "Resource": "Func8",
+      "Next": "Func9"
+    },
+    "Func9": {
+      "Type": "Task",
+      "Resource": "Func9",
+      "Next": "Func10"
+    },
+    "Func10": {
+      "Type": "Task",
+      "Resource": "Func10",
+      "Next": "Func11"
+    },
+    "Func11": {
+      "Type": "Task",
+      "Resource": "Func11",
+      "Next": "Func12"
+    },
+    "Func12": {
+      "Type": "Task",
+      "Resource": "Func12",
+      "Next": "Func13"
+    },
+    "Func13": {
+      "Type": "Task",
+      "Resource": "Func13",
+      "Next": "Func14"
+    },
+    "Func14": {
+      "Type": "Task",
+      "Resource": "Func14",
+      "Next": "Func15"
+    },
+    "Func15": {
+      "Type": "Task",
+      "Resource": "Func15",
+      "Next": "Func16"
+    },
+    "Func16": {
+      "Type": "Task",
+      "Resource": "Func16",
+      "Next": "Func17"
+    },
+    "Func17": {
+      "Type": "Task",
+      "Resource": "Func17",
+      "Next": "Func18"
+    },
+    "Func18": {
+      "Type": "Task",
+      "Resource": "Func18",
+      "Next": "Func19"
+    },
+    "Func19": {
+      "Type": "Task",
+      "Resource": "Func19",
+      "Next": "Func20"
+    },
+    "Func20": {
+      "Type": "Task",
+      "Resource": "Func20",
+      "Next": "Func21"
+    },
+    "Func21": {
+      "Type": "Task",
+      "Resource": "Func21",
+      "Next": "Func22"
+    },
+    "Func22": {
+      "Type": "Task",
+      "Resource": "Func22",
+      "Next": "Func23"
+    },
+    "Func23": {
+      "Type": "Task",
+      "Resource": "Func23",
+      "Next": "Func24"
+    },
+    "Func24": {
+      "Type": "Task",
+      "Resource": "Func24",
+      "Next": "Func25"
+    },
+    "Func25": {
+      "Type": "Task",
+      "Resource": "Func25",
+      "Next": "Func26"
+    },
+    "Func26": {
+      "Type": "Task",
+      "Resource": "Func26",
+      "Next": "Func27"
+    },
+    "Func27": {
+      "Type": "Task",
+      "Resource": "Func27",
+      "Next": "Func28"
+    },
+    "Func28": {
+      "Type": "Task",
+      "Resource": "Func28",
+      "Next": "Func29"
+    },
+    "Func29": {
+      "Type": "Task",
+      "Resource": "Func29",
+      "Next": "Func30"
+    },
+    "Func30": {
+      "Type": "Task",
+      "Resource": "Func30",
+      "Next": "Func31"
+    },
+    "Func31": {
+      "Type": "Task",
+      "Resource": "Func31",
+      "Next": "Func32"
+    },
+    "Func32": {
+      "Type": "Task",
+      "Resource": "Func32",
+      "End": true
+    }
+  }
+}
