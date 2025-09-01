@@ -1,0 +1,5 @@
+aws lambda invoke --function-name arn:aws:lambda:ap-southeast-2:303696760894:function:unum-chainn-function-Func1Function-E1ce5zp8DtZm --invocation-type RequestResponse --payload fileb://events/event.json tmp
+
+unum-cli.py build -g
+# then
+unum-cli.py deploy

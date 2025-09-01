@@ -131,6 +131,8 @@ class CloudWatchExecutionTimeReader:
     def analyze_execution_times(self, execution_times: Dict[str, List[Dict]]) -> pd.DataFrame:
         """Analyze execution times and create a summary DataFrame."""
         analysis_data = []
+
+        times_list = []
         
         for func_name, logs in execution_times.items():
             if not logs:
@@ -138,6 +140,7 @@ class CloudWatchExecutionTimeReader:
                     'Function': func_name,
                     'Total_Executions': 0,
                     'Avg_Execution_Time_ms': 0,
+                    'avg_without_first_ms': 0,
                     'Min_Execution_Time_ms': 0,
                     'Max_Execution_Time_ms': 0,
                     'Std_Dev_ms': 0,
@@ -151,6 +154,7 @@ class CloudWatchExecutionTimeReader:
                 'Function': func_name,
                 'Total_Executions': len(logs),
                 'Avg_Execution_Time_ms': round(sum(execution_times_ms) / len(execution_times_ms), 2),
+                'avg_without_first_ms': round((sum(execution_times_ms)-max(execution_times_ms)) / len(execution_times_ms[1:]), 2),
                 'Min_Execution_Time_ms': min(execution_times_ms),
                 'Max_Execution_Time_ms': max(execution_times_ms),
                 'Std_Dev_ms': round(pd.Series(execution_times_ms).std(), 2),
