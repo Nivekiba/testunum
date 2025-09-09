@@ -176,11 +176,11 @@ Resources:
       CodeUri: Func10Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func10Function
@@ -189,11 +189,11 @@ Resources:
       CodeUri: Func11Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func11Function
@@ -202,11 +202,11 @@ Resources:
       CodeUri: Func12Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func12Function
@@ -215,11 +215,11 @@ Resources:
       CodeUri: Func13Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func13Function
@@ -228,11 +228,11 @@ Resources:
       CodeUri: Func14Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func14Function
@@ -241,11 +241,11 @@ Resources:
       CodeUri: Func15Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func15Function
@@ -254,11 +254,11 @@ Resources:
       CodeUri: Func16Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func16Function
@@ -267,11 +267,11 @@ Resources:
       CodeUri: Func17Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func17Function
@@ -280,11 +280,11 @@ Resources:
       CodeUri: Func18Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func18Function
@@ -293,11 +293,11 @@ Resources:
       CodeUri: Func19Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func19Function
@@ -306,11 +306,11 @@ Resources:
       CodeUri: Func1Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func1Function
@@ -319,11 +319,11 @@ Resources:
       CodeUri: Func20Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func20Function
@@ -332,11 +332,11 @@ Resources:
       CodeUri: Func21Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func21Function
@@ -345,11 +345,11 @@ Resources:
       CodeUri: Func22Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func22Function
@@ -358,11 +358,11 @@ Resources:
       CodeUri: Func23Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func23Function
@@ -371,11 +371,11 @@ Resources:
       CodeUri: Func24Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func24Function
@@ -384,11 +384,11 @@ Resources:
       CodeUri: Func25Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func25Function
@@ -397,11 +397,11 @@ Resources:
       CodeUri: Func26Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func26Function
@@ -410,11 +410,11 @@ Resources:
       CodeUri: Func27Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func27Function
@@ -423,11 +423,11 @@ Resources:
       CodeUri: Func28Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func28Function
@@ -436,11 +436,11 @@ Resources:
       CodeUri: Func29Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func29Function
@@ -449,11 +449,11 @@ Resources:
       CodeUri: Func2Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func2Function
@@ -462,11 +462,11 @@ Resources:
       CodeUri: Func30Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func30Function
@@ -475,11 +475,11 @@ Resources:
       CodeUri: Func31Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func31Function
@@ -488,11 +488,11 @@ Resources:
       CodeUri: Func32Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func32Function
@@ -501,13 +501,13 @@ Resources:
       CodeUri: Func3Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AmazonSNSFullAccess
       - AWSLambdaRole
       - AmazonSQSFullAccess
+      - AmazonSNSFullAccess
+      - AmazonS3FullAccess
+      - AmazonDynamoDBFullAccess
       - AWSLambdaBasicExecutionRole
-      Runtime: python3.9
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func3Function
@@ -516,11 +516,11 @@ Resources:
       CodeUri: Func4Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func4Function
@@ -529,11 +529,11 @@ Resources:
       CodeUri: Func5Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func5Function
@@ -542,11 +542,11 @@ Resources:
       CodeUri: Func6Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func6Function
@@ -555,11 +555,11 @@ Resources:
       CodeUri: Func7Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func7Function
@@ -568,11 +568,11 @@ Resources:
       CodeUri: Func8Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func8Function
@@ -581,11 +581,11 @@ Resources:
       CodeUri: Func9Function
       Handler: main.lambda_handler
       Policies:
-      - AmazonDynamoDBFullAccess
-      - AmazonS3FullAccess
-      - AWSLambdaBasicExecutionRole
       - AWSLambdaRole
-      Runtime: python3.9
+      - AmazonDynamoDBFullAccess
+      - AWSLambdaBasicExecutionRole
+      - AmazonS3FullAccess
+      Runtime: python3.12
     Type: AWS::Serverless::Function
     Metadata:
       SamResourceId: Func9Function
